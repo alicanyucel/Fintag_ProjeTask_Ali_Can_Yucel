@@ -10,7 +10,7 @@ namespace ProjeTask.Data
 
         }
 
-        public DbSet<Kullanici> Kullanicilar { get; set; }//veri tabanına values adında tablo oluşturur
+        public DbSet<Kullanici> Kullanicilar { get; set; }
         public DbSet<BankaHesap> BankaHesaplari { get; set; }
         public DbSet<Fiyat> Fiyatlar { get; set; }
     }
